@@ -1,0 +1,12 @@
+[programs.devnet]
+solana_cubes = "7e5rKi62msvxHugpdHhFYgCXN1kQcUa49eogzDHLFT42"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/ujjwaljain/Downloads/Projects/solanacubes/target/deploy/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
